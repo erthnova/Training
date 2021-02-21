@@ -26,3 +26,5 @@ class ElectroCar(Car):
         """"Переопределение родительского метода"""
         desc = 'Электромобиль ' + str(self.year) + ' ' + self.make + ' ' + self.model
         return desc.title()
+
+#new comment
